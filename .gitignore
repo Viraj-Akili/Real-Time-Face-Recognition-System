@@ -1,0 +1,6 @@
+*.caffemodel
+*.dat
+*.bz2
+__pycache__/
+*.pkl
+.env
