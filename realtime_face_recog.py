@@ -6,9 +6,9 @@ import pickle
 import time
 
 # ---------------- Paths ----------------
-DNN_PROTO = r"C:\Users\admin\OneDrive\Desktop\Image processing\deploy.prototxt"
-DNN_MODEL = r"C:\Users\admin\OneDrive\Desktop\Image processing\res10_300x300_ssd_iter_140000.caffemodel"
-KNOWN_FILE = r"C:\Users\admin\OneDrive\Desktop\Image processing\known_faces.pkl"
+DNN_PROTO = "deploy.prototxt"
+DNN_MODEL = "res10_300x300_ssd_iter_140000.caffemodel"
+KNOWN_FILE = "known_faces.pkl"
 
 # ---------------- Load known faces ----------------
 with open(KNOWN_FILE, "rb") as f:
