@@ -3,8 +3,8 @@ import os
 import face_recognition
 import pickle
 
-KNOWN_DIR = r"C:\Users\admin\OneDrive\Desktop\Image processing\known_faces"
-OUTPUT_FILE = r"C:\Users\admin\OneDrive\Desktop\Image processing\known_faces.pkl"
+KNOWN_DIR = "known_faces"
+OUTPUT_FILE = "known_faces.pkl"
 TOLERANCE = 0.6   # used later; not for encoding step
 
 known_encodings = []
